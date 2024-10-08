@@ -39,8 +39,8 @@ DmiBIOSVersion="string:MBP7.89"        # Boot ROM Version
 DmiSystemSerial="C02LVJYHG86R"         # Serial Number (system)
 DmiSystemUuid="64CD712A-36B6-4422-B29E-FCA171ED231A" # Hardware UUID
 ROM='64B9E848B060'                   # ROM identifier
-MLB="NO_LOGIC_BOARD_SN"                # MLB SN stored in NVRAM
-DmiBoardSerial="C02351301GUFJQWJA"                # MLB SN stored in EFI
+MLB="C02351301GUFJQWJA"                # MLB SN stored in NVRAM
+DmiBoardSerial="${MLB}"                # MLB SN stored in EFI
 DmiBoardProduct="Mac-3CBD00234E554E41" # Product (board) identifier
 SystemUUID="aabbccddeeff00112233445566778899" # System UUID
 
